@@ -1,4 +1,3 @@
-import React from "react";
 import { ArrowUp } from "lucide-react";
 
 const Footer = () => {
@@ -17,7 +16,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div>
             <p className="text-tech-gray-lighter mb-2 text-center">
-              © {currentYear} Sujal. All rights reserved.
+              © {currentYear} All rights reserved.
             </p>
             <p className="text-tech-gray-light text-sm">
               {/* Cybersecurity Enthusiast & Python Developer */}
@@ -39,7 +38,7 @@ const Footer = () => {
 
         <div className="mt-6 pt-6 border-t border-tech-gray text-center">
           <p className="text-tech-gray-light text-sm">
-            Designed by Sujal Patel | Copyright ©2025 All rights reserved
+            Designed by Sujal Patel 💗
           </p>
         </div>
       </div>
