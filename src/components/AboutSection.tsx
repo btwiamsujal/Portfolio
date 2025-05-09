@@ -1,4 +1,3 @@
-
 const AboutSection = () => {
   return (
     <section id="about" className="bg-tech-darker py-20">
