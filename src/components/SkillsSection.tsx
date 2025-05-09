@@ -1,5 +1,3 @@
-import React from "react";
-
 const SkillsSection = () => {
   const skillCategories = [
     {
@@ -83,7 +81,7 @@ const SkillsSection = () => {
 
             <div>
               <div className="flex justify-between mb-1">
-                <span>Software Project Development/Management</span>
+                <span>Software Project Development</span>
                 <span>80%</span>
               </div>
               <div className="h-2 bg-tech-gray rounded-full">
