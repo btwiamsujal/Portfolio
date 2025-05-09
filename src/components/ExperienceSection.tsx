@@ -1,21 +1,18 @@
-import React from "react";
-import { Badge } from "@/components/ui/badge";
-
 const ExperienceSection = () => {
   const education = [
     {
-      degree: "Bachelor of Engineering in Information Technology",
+      degree: "Bachlore of Engineering in Information Technology",
       institution: "Parul University",
       period: "2022 - 2026",
       grade: "First Class Distinction (CGPA: 7.92)",
-      // description: "Focused on cybersecurity, software development, and information systems.",
+      description: "Focused on cybersecurity, software development, and information systems.",
     },
     {
       degree: "Higher Secondary School",
       institution: "GyanManjari Vidhyapith",
       period: "2020 - 2022",
       grade: "First Class (79.33%)",
-      // description: "Completed 12th grade with Physics, Chemistry, and Mathematics.",
+      description: "Completed 12th grade with Physics, Chemistry, and Mathematics.",
     },
   ];
 
