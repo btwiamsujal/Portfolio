@@ -7,7 +7,6 @@ const SkillsSection = () => {
     {
       title: "Technologies & Frameworks",
       skills: [
-        "MongoDB",
         "Angular",
         "Node.js",
         "Django",
@@ -21,6 +20,7 @@ const SkillsSection = () => {
         "Git",
         "VS Code",
         "MySQL Workbench",
+        "MongoDB",
         "MongoDB Atlas",
         "PyCharm",
         "Linux",
@@ -69,12 +69,12 @@ const SkillsSection = () => {
             <div>
               <div className="flex justify-between mb-1">
                 <span>Python Development</span>
-                <span>80%</span>
+                <span>75%</span>
               </div>
               <div className="h-2 bg-tech-gray rounded-full">
                 <div
                   className="h-full bg-tech-blue-light rounded-full"
-                  style={{ width: "80%" }}
+                  style={{ width: "75%" }}
                 ></div>
               </div>
             </div>
@@ -82,25 +82,25 @@ const SkillsSection = () => {
             <div>
               <div className="flex justify-between mb-1">
                 <span>Software Project Development</span>
-                <span>80%</span>
+                <span>60%</span>
               </div>
               <div className="h-2 bg-tech-gray rounded-full">
                 <div
                   className="h-full bg-tech-blue-light rounded-full"
-                  style={{ width: "80%" }}
+                  style={{ width: "60%" }}
                 ></div>
               </div>
             </div>
 
             <div>
               <div className="flex justify-between mb-1">
-                <span>Cybersecurity</span>
-                <span>35%</span>
+                <span>CyberSecurity</span>
+                <span>25%</span>
               </div>
               <div className="h-2 bg-tech-gray rounded-full">
                 <div
                   className="h-full bg-tech-blue-light rounded-full"
-                  style={{ width: "35%" }}
+                  style={{ width: "25%" }}
                 ></div>
               </div>
             </div>
@@ -108,12 +108,12 @@ const SkillsSection = () => {
             <div>
               <div className="flex justify-between mb-1">
                 <span>Computer Networking</span>
-                <span>80%</span>
+                <span>75%</span>
               </div>
               <div className="h-2 bg-tech-gray rounded-full">
                 <div
                   className="h-full bg-tech-blue-light rounded-full"
-                  style={{ width: "80%" }}
+                  style={{ width: "75%" }}
                 ></div>
               </div>
             </div>

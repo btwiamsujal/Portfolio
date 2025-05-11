@@ -136,7 +136,7 @@ const ProjectsSection = () => {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <p className="text-tech-gray-lighter mb-4">Interested in seeing more of my work?</p>
           <Button
             asChild
@@ -147,7 +147,7 @@ const ProjectsSection = () => {
               View All Projects
             </a>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
