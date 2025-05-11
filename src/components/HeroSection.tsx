@@ -12,17 +12,17 @@ const HeroSection = () => {
               Sujal Patel
             </h1>
             <h2 className="text-3xl md:text-4xl text-tech-gray-lighter font-semibold">
-              Aspiring Cybersecurity Enthusiast & Python Developer
+              Aspiring CyberSecurity Enthusiast & Python Developer
             </h2>
             <p className="text-lg text-tech-gray-lighter max-w-lg">
-              A final-year B.Tech IT student passionate about cybersecurity, Python development, and solving real-world problems through technology.
+              I am a B.Tech IT student passionate about CybersSecurity, Python development, and solving real-world problems through technology.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button className="bg-tech-blue hover:bg-tech-blue-light">
                 <a href="https://github.com/btwiamsujal">View My Work</a>
               </Button>
               <Button variant="outline" className="border-tech-blue text-tech-blue-light hover:bg-tech-blue/10">
-                <a href="https://www.linkedin.com/in/sujal-patel-45b632266/">Contact Me</a>
+                <a href="https://www.linkedin.com/in/sujal-patel-45b632266/">Connect With Me</a>
               </Button>
             </div>
           </div>
