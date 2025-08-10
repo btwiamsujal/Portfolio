@@ -157,7 +157,7 @@ const ContactSection = () => {
                 Download my resume to learn more about my education, experience, and skills.
               </p>
               <Button asChild className="w-full bg-tech-blue hover:bg-tech-blue-light">
-                <a href="https://drive.google.com/file/d/1DNOjuOXaRIAcn6lRcOQemkFh6Csp_qoV/view?usp=sharing" download>
+                <a href="https://drive.google.com/file/d/1FblkucNANIYkooyVqIJpNGhvhUdvYmiJ/view?usp=sharing" download>
                   Download Resume
                 </a>
               </Button>
