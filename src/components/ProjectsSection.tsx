@@ -6,61 +6,63 @@ const ProjectsSection = () => {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   const projects = [
-    {
-      id: 1,
-      title: "Aether AI",
-      description: "AetherAI is a smart virtual assistant that automates tasks, answers queries, and enhances productivity using AI-driven natural language processing and modular functionality.",
-      technologies: ["Python", "Flask", "NLP libraries", "GUI", "Rest API keys"],
-      link: "https://www.linkedin.com/posts/sujal-patel-45b632266_aetherai-aiinnovation-artificialintelligence-activity-7313078601443106816-tj-u?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEE7qwcBYKng_QI-HnARyh6tQE03xvG7HRA",
-      github: "https://github.com/btwiamsujal/Aether-AI",
-      image: "/images/aetherai.gif",
-    },
-    {
-      id: 2,
-      title: "PennyTrack",
-      description: "A comprehensive expense tracking application with budget planning features, expense categories, and visualization tools to help users manage personal finances effectively.",
-      technologies: ["Python", "Flask", "SQLite", "Chart.js", "Bootstrap"],
-      link: "https://pennytrack-production.up.railway.app/",
-      github: "https://github.com/btwiamsujal/PennyTrack",
-      image: "/images/pennytrack.png",
-    },
-    {
-      id: 3,
-      title: "CyberSecurity Scripts",
-      description: "Created ethical cybersecurity tools including a keylogger and session hijacking scripts for academic use, aiding in understanding system vulnerabilities and countermeasures.",
-      technologies: ["Python", "argparse", "requests", "socket", "json", "whois", "dns.resolver"],
-      link: "https://github.com/btwiamsujal/OSINT-tools",
-      github: "https://github.com/btwiamsujal/OSINT-tools",
-      image: "/images/cybertool.png",
-    },
-    {
-      id: 4,
-      title: "Instagram Bot",
-      description: "An automation script using Instabot to enhance Instagram productivity and account management.",
-      technologies: ["Python", "Instabot Package"],
-      link: "https://github.com/btwiamsujal/InstaAuto",
-      github: "https://github.com/btwiamsujal/InstaAuto",
-      image: "/images/instabot.png",
-    },
-    {
-      id: 5,
-      title: "Python Scripts",
-      description: "Some utility Python files that can be plugged into any project for added functionality.",
-      technologies: ["Python"],
-      link: "https://github.com/btwiamsujal/Python_Files",
-      github: "https://github.com/btwiamsujal/Python_Files",
-      image: "/images/pyutils.png",
-    },
-    {
-      id: 6,
-      title: "Edudash",
-      description: "A platform that integrates various educational tools and resources into a single dashboard for enhanced classroom management and student engagement.",
-      technologies: ["Python", "Django", "HTML", "CSS", "JavaScript", "Rest API"],
-      link: "#",
-      github: "#",
-      image: "/images/edudash.png",
-    }
-  ];
+  {
+    id: 1,
+    title: "Aether AI",
+    description: "AetherAI is a smart virtual assistant that automates tasks, answers queries, and enhances productivity using AI-driven natural language processing and modular functionality.",
+    technologies: ["Python", "Flask", "NLP libraries", "GUI", "REST API"],
+    link: "https://www.linkedin.com/posts/sujal-patel-45b632266_aetherai-aiinnovation-artificialintelligence-activity-7313078601443106816-tj-u",
+    github: "https://github.com/btwiamsujal/Aether-AI",
+    image: "/images/aetherai.gif",
+  },
+  {
+    id: 2,
+    title: "Paperly",
+    description: "A collaborative note-sharing web app that allows students to share, edit, and access class notes with ease.",
+    technologies: ["JavaScript", "Node.js", "Express", "MongoDB"],
+    link: "#",
+    github: "https://github.com/btwiamsujal/Paperly",
+    image: "/images/paperly.png",
+  },
+  {
+    id: 3,
+    title: "SkillSphere",
+    description: "SkillSphere is a career development platform designed for students and institutions, offering guidance, resources, and opportunities for professional growth.",
+    technologies: ["Python", "Streamlit", "Flask", "MongoDB"],
+    link: "#",
+    github: "https://github.com/btwiamsujal/SkillSphere",
+    image: "/images/skillsphere.png",
+  },
+  {
+    id: 4,
+    title: "MedAether",
+    description: "A healthcare-focused AI assistant that provides medical information, suggestions, and automation for healthcare workflows.",
+    technologies: ["Python", "Flask", "Machine Learning", "API Integration"],
+    link: "#",
+    github: "https://github.com/btwiamsujal/MedAether",
+    image: "/images/medaether.png",
+  },
+  {
+    id: 5,
+    title: "PennyTrack",
+    description: "A comprehensive expense tracking application with budget planning features, expense categories, and visualization tools to help users manage personal finances effectively.",
+    technologies: ["Python", "Flask", "MongoDB", "Chart.js", "Bootstrap"],
+    link: "https://pennytrack-production.up.railway.app/",
+    github: "https://github.com/btwiamsujal/PennyTrack",
+    image: "/images/pennytrack.png",
+  },
+  {
+    id: 6,
+    title: "AES Based Password Vault",
+    description: "A secure password manager built with AES encryption to safely store and retrieve credentials.",
+    technologies: ["Python", "AES Encryption", "Flask", "HTML", "CSS"],
+    link: "#",
+    github: "https://github.com/btwiamsujal/AES_based_pwd_vault",
+    image: "/images/aesvault.png",
+  },
+];
+
+
 
   return (
     <section id="projects" className="py-20 bg-tech-darker">

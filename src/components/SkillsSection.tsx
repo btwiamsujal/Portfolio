@@ -29,7 +29,7 @@ const SkillsSection = () => {
     },
     {
       title: "Cybersecurity",
-      skills: ["Network Security", "SQL Injection", "Junior Security Analyst"],
+      skills: ["Network Security", "Scripting Attacks", "Security Analyst", "Ethical Hacking", "TryHackMe", "Kali Linux", "VAPT"],
     },
   ];
 
@@ -95,12 +95,12 @@ const SkillsSection = () => {
             <div>
               <div className="flex justify-between mb-1">
                 <span>CyberSecurity</span>
-                <span>25%</span>
+                <span>35%</span>
               </div>
               <div className="h-2 bg-tech-gray rounded-full">
                 <div
                   className="h-full bg-tech-blue-light rounded-full"
-                  style={{ width: "25%" }}
+                  style={{ width: "35%" }}
                 ></div>
               </div>
             </div>

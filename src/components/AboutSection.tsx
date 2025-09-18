@@ -6,8 +6,13 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           <div className="md:col-span-2 space-y-4 animate-fade-in">
             <p className="text-tech-gray-lighter text-lg">
-            I am a B.Tech IT student passionate about cybersecurity and Python development. With expertise in software documentation, project management, and system design, I have experience in estimation models and both function-oriented and object-oriented systems. I am analytical, detail-oriented, and thrive in strategic planning. My interests also include AI-driven solutions, career development platforms, and app development. Focused on cybersecurity, I strive to deliver secure, efficient, and impactful solutions.
-            </p>
+              I'm an enthusiastic tech explorer driven by curiosity and precision, currently pursuing a B. Tech in Information Technology.
+With hands-on experience in Python programming development and a strong interest in Cybersecurity, I thrive on solving
+complex challenges with secure, efficient solutions. My academic background has equipped me with solid skills in C, Python
+(my core strength), Java, DBMS, OOP, MEA(R)N Stack, .NET, and DSA, along with practical exposure through impact
+training and real-world tech environments. I am Oracle Gen AI certified and a Cisco Certified Ethical Hacker, I’m
+constantly focused on growing in the fields of Python development and cybersecurity.
+              </p>
             <div className="text-tech-gray-lighter text-lg text-left">
               <p className="mb-2"><strong>Profile: </strong>IT Engineer</p>
               <p className="mb-2"><strong>Domain: </strong>Cybersecurity and Networking</p>
@@ -33,7 +38,8 @@ const AboutSection = () => {
                 <li>• Python Development</li>
                 <li>• Technical Documentation</li>
                 <li>• Network Security</li>
-                <li>• Automation</li>
+                <li>• Software Devlopment</li>
+                <li>• Aviation</li>
               </ul>
             </div>
           </div>
